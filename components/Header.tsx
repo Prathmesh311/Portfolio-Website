@@ -20,28 +20,19 @@ const Header = (props: Props) => {
 
             <div className='flex flex-row items-center'>
                 <SocialIcon 
-                    className="m-2 w-5"
+                    className="m-2 w-5 bg-repeat-round bg-white"
                     url="https://www.linkedin.com/in/prathmesh-bhondave/" 
                 />
-                 <SocialIcon 
+                <SocialIcon 
                     url="https://www.linkedin.com/in/prathmesh-bhondave/" 
                 />
-                 <SocialIcon 
+                <SocialIcon 
                     url="https://www.linkedin.com/in/prathmesh-bhondave/" 
                 />
             </div>
         </div>
-
-        <div className="text-3xl mt-200 max-w-7xl mx-auto">
-            <p className='font-semibold'>Software Developer</p>
-            <h1 className='font-bold mt-50'>Hi I'm <span>Prathmesh</span> <br /> Bhondave From India</h1>
-        </div>
-
-        {/*<div>
-            <SocialIcon 
-                url="https://www.linkedin.com/in/prathmesh-bhondave/" 
-            />
-        </div>*/}
+        
+        
     </div>
   )
 }
